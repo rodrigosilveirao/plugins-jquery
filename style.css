@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.formCampo input,
+.formCampo textarea{
+    display: block;
+    width: 100%;
+    padding: 8px;  
+}
+
+.formCampo textarea{
+    resize: none;
+    height: 120px;
+}
+
+form button{
+    display: block;
+    background-color: rgb(12, 176, 78);
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    max-width: 120px;
+    margin-top: 16px;
+}
+
+form button:hover{
+    background-color: rgb(6, 107, 46);
+}
+
+form{
+    max-width: 360px;
+}
+
+footer .container li{
+    list-style: none;
+    margin-left: 16px;
+}
+
+footer .container img{
+    height: 30px;
+}
